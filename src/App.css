@@ -1,0 +1,34 @@
+.App {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.App input {
+  margin-top: 30px;
+  margin-left: 30px;
+  width: 80%;
+  height: 25px;
+}
+
+.App li {
+  height: 40px;
+
+}
+
+.Filter {
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.Filter a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+.Filter a.active {
+  text-decoration: line-through;
+}
